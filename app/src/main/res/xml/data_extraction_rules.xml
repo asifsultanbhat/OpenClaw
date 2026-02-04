@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data_extraction_rules xmlns:android="http://schemas.android.com/apk/res/android">
+    <cloud_backup>
+        <include domain="sharedpref" path="."/>
+        <exclude domain="sharedpref" path="encrypted_prefs"/>
+    </cloud_backup>
+</data_extraction_rules>

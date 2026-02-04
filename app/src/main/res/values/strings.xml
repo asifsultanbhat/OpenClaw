@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">ClawController</string>
+    
+    <!-- Main Activity -->
+    <string name="status_online">ONLINE</string>
+    <string name="status_offline">OFFLINE</string>
+    <string name="token_label">Gateway Auth Token</string>
+    <string name="token_placeholder">No token detected yet</string>
+    <string name="copy_token">Copy Token</string>
+    
+    <!-- Action Buttons -->
+    <string name="btn_fresh_install">Fresh Install</string>
+    <string name="btn_start_runtime">Start Runtime</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_settings">Settings</string>
+    
+    <!-- Log Console -->
+    <string name="log_title">Terminal Output</string>
+    <string name="log_empty">No logs yet. Start the runtime to see output.</string>
+    
+    <!-- WebView -->
+    <string name="webview_loading">Loading dashboard…</string>
+    
+    <!-- Configuration Activity -->
+    <string name="config_title">Configuration</string>
+    <string name="config_gemini_key">Gemini API Key</string>
+    <string name="config_telegram_token">Telegram Bot Token</string>
+    <string name="config_telegram_id">Telegram ID</string>
+    <string name="btn_save_config">Save Configuration</string>
+    <string name="config_saved">Configuration saved successfully</string>
+    <string name="config_error">Please fill all fields</string>
+    
+    <!-- Service Notifications -->
+    <string name="notification_channel_name">OpenClaw Runtime</string>
+    <string name="notification_channel_desc">Keeps OpenClaw running in the background</string>
+    <string name="notification_title">OpenClaw Gateway Running</string>
+    <string name="notification_text">Tap to return to dashboard</string>
+    
+    <!-- Fresh Install Progress -->
+    <string name="install_step_1">Cleaning old installation…</string>
+    <string name="install_step_2">Updating packages…</string>
+    <string name="install_step_3">Installing dependencies…</string>
+    <string name="install_step_4">Creating Gyp config…</string>
+    <string name="install_step_5">Installing OpenClaw…</string>
+    <string name="install_complete">Installation complete!</string>
+    <string name="install_failed">Installation failed. Check logs.</string>
+    
+    <!-- Runtime Messages -->
+    <string name="runtime_starting">Starting OpenClaw Gateway…</string>
+    <string name="runtime_started">Gateway is running</string>
+    <string name="runtime_stopped">Gateway stopped</string>
+    <string name="runtime_error">Failed to start. Check Termux installation.</string>
+    
+    <!-- Error Messages -->
+    <string name="error_termux_not_found">Termux not installed</string>
+    <string name="error_termux_api_not_found">Termux:API not installed</string>
+    <string name="error_termux_tasker_not_found">Termux:Tasker not installed</string>
+    <string name="error_port_check">Could not connect to port 18789</string>
