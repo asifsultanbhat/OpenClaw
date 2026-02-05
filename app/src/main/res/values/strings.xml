@@ -58,3 +58,4 @@
     <string name="error_termux_api_not_found">Termux:API not installed</string>
     <string name="error_termux_tasker_not_found">Termux:Tasker not installed</string>
     <string name="error_port_check">Could not connect to port 18789</string>
+</resources>
